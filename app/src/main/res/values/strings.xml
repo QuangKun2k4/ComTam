@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_gio_hang_screen">GioHangScreen</string>
+    <string name="title_activity_gio_hang2_screen">GioHang2Screen</string>
+    <string name="title_activity_profile_screen">ProfileScreen</string>
+    <string name="title_activity_edit_profile_screen">EditProfileScreen</string>
+    <string name="title_activity_histori_screen">HistoriScreen</string>
+    <string name="title_activity_chi_tiet_san_pham_screen">ChiTietSanPhamScreen</string>
+    <string name="title_activity_thanh_toan_screen">ThanhToanScreen</string>
+</resources>

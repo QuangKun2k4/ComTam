@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThanhToanScreen"
+            android:exported="false"
+            android:label="@string/title_activity_thanh_toan_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ChiTietSanPhamScreen"
+            android:exported="false"
+            android:label="@string/title_activity_chi_tiet_san_pham_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".HistoriScreen"
+            android:exported="false"
+            android:label="@string/title_activity_histori_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".EditProfileScreen"
+            android:exported="false"
+            android:label="@string/title_activity_edit_profile_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ProfileScreen"
+            android:exported="false"
+            android:label="@string/title_activity_profile_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".GioHang2Screen"
+            android:exported="false"
+            android:label="@string/title_activity_gio_hang2_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".GioHangScreen"
+            android:exported="false"
+            android:label="@string/title_activity_gio_hang_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="true"
+            android:label="@string/title_activity_register_screen"
+            android:theme="@style/Theme.MyApplication">
+
+        </activity>
+        <activity
+            android:name=".Welcome"
+            android:exported="false"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
